@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>Dg Adz/Home Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-eduwell-style.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+<!--
+
+TemplateMo 573 EduWell
+
+https://templatemo.com/tm-573-eduwell
+
+-->
+  </head>
+
+<body>
+
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <nav class="main-nav">
+                      <!-- ***** Logo Start ***** -->
+                      <a href="index.html" class="logo">
+                          <img src="assets/images/templatemo-eduwell.png" alt="EduWell Template" style="width: 70px;">
+                      </a>
+                      <!-- ***** Logo End ***** -->
+                      <!-- ***** Menu Start ***** -->
+                      <ul class="nav">
+                          <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                          <li class="scroll-to-section"><a href="about-us.html">About Us</a></li>
+                          <li class="scroll-to-section"><a href="our-services.html">Services</a></li>
+                          <li class="has-sub">
+                              <a href="javascript:void(0)">Pages</a>
+                              <ul class="sub-menu">
+                                  <li><a href="about-us.html">Franchise</a></li>
+                                  <li><a href="our-services.html">FAQ</a></li>
+                                  <li><a href="contact-us.html">Blog</a></li>
+                              </ul>
+                          </li>
+                          <li class="scroll-to-section"><a href="contact-us.html">Property</a></li> 
+                          <li class="scroll-to-section"><a href="contact-us.html">Contact Us</a></li> 
+                      </ul>        
+                      <a class='menu-trigger'>
+                          <span>Menu</span>
+                      </a>
+                      <!-- ***** Menu End ***** -->
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Main Banner Area Start ***** -->
+<style>
+  #webcoderskull{
+    position: absolute;
+    left: 0;
+    top: 25%;
+    padding: 0 20px;
+    width: 100%;
+    text-align: center;
+}
+
+canvas{
+    height:100vh;
+    background-color:#5271FF;
+}
+#webcoderskull h1{
+  letter-spacing: 5px;
+  font-size: 5rem;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+</style>
+
+  <section class="main-banner" id="top">
+    <div id="particles">
+      <div id="webcoderskull">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="header-text">
+                <style>
+                  .container p span.typed-text {
+  font-weight: normal;
+  color: #dd7732;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+                </style>
+                <h2>Welcome to DG Adz <br>We do <em><span class="typed-text"></span><span class="cursor">&nbsp;</span></em></h2>
+                
+<script>
+  const typedTextSpan = document.querySelector(".typed-text");
+const cursorSpan = document.querySelector(".cursor");
+
+const textArray = ["hard", "fun", "a journey", "LIFE"];
+const typingDelay = 200;
+const erasingDelay = 100;
+const newTextDelay = 2000; // Delay between current and next text
+let textArrayIndex = 0;
+let charIndex = 0;
+
+function type() {
+  if (charIndex < textArray[textArrayIndex].length) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(type, typingDelay);
+  } 
+  else {
+    cursorSpan.classList.remove("typing");
+    setTimeout(erase, newTextDelay);
+  }
+}
+
+function erase() {
+  if (charIndex > 0) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+    charIndex--;
+    setTimeout(erase, erasingDelay);
+  } 
+  else {
+    cursorSpan.classList.remove("typing");
+    textArrayIndex++;
+    if(textArrayIndex>=textArray.length) textArrayIndex=0;
+    setTimeout(type, typingDelay + 1100);
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
+  if(textArray.length) setTimeout(type, newTextDelay + 250);
+});
+</script>
+
+
+
+
+                <div class="main-button-gradient">
+                  <div class="scroll-to-section"><a href="#contact-section">Join Us Now!</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-image">
+                <img src="assets/images/banner-right-image.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<script>
+  /*!
+ * Particleground
+ *
+ */
+ document.addEventListener('DOMContentLoaded', function () {
+  particleground(document.getElementById('particles'), {
+    dotColor: '#fff',
+    lineColor: '#fff'
+  });
+  var intro = document.getElementById('intro');
+  intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
+}, false);
+
+
+
+;(function(window, document) {
+  "use strict";
+  var pluginName = 'particleground';
+
+  function extend(out) {
+    out = out || {};
+    for (var i = 1; i < arguments.length; i++) {
+      var obj = arguments[i];
+      if (!obj) continue;
+      for (var key in obj) {
+        if (obj.hasOwnProperty(key)) {
+          if (typeof obj[key] === 'object')
+            deepExtend(out[key], obj[key]);
+          else
+            out[key] = obj[key];
+        }
+      }
+    }
+    return out;
+  };
+
+  var $ = window.jQuery;
+
+  function Plugin(element, options) {
+    var canvasSupport = !!document.createElement('canvas').getContext;
+    var canvas;
+    var ctx;
+    var particles = [];
+    var raf;
+    var mouseX = 0;
+    var mouseY = 0;
+    var winW;
+    var winH;
+    var desktop = !navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|BB10|mobi|tablet|opera mini|nexus 7)/i);
+    var orientationSupport = !!window.DeviceOrientationEvent;
+    var tiltX = 0;
+    var pointerX;
+    var pointerY;
+    var tiltY = 0;
+    var paused = false;
+
+    options = extend({}, window[pluginName].defaults, options);
+
+    /**
+     * Init
+     */
+    function init() {
+      if (!canvasSupport) { return; }
+
+      //Create canvas
+      canvas = document.createElement('canvas');
+      canvas.className = 'pg-canvas';
+      canvas.style.display = 'block';
+      element.insertBefore(canvas, element.firstChild);
+      ctx = canvas.getContext('2d');
+      styleCanvas();
+
+      // Create particles
+      var numParticles = Math.round((canvas.width * canvas.height) / options.density);
+      for (var i = 0; i < numParticles; i++) {
+        var p = new Particle();
+        p.setStackPos(i);
+        particles.push(p);
+      };
+
+      window.addEventListener('resize', function() {
+        resizeHandler();
+      }, false);
+
+      document.addEventListener('mousemove', function(e) {
+        mouseX = e.pageX;
+        mouseY = e.pageY;
+      }, false);
+
+      if (orientationSupport && !desktop) {
+        window.addEventListener('deviceorientation', function () {
+          // Contrain tilt range to [-30,30]
+          tiltY = Math.min(Math.max(-event.beta, -30), 30);
+          tiltX = Math.min(Math.max(-event.gamma, -30), 30);
+        }, true);
+      }
+
+      draw();
+      hook('onInit');
+    }
+
+    /**
+     * Style the canvas
+     */
+    function styleCanvas() {
+      canvas.width = element.offsetWidth;
+      canvas.height = element.offsetHeight;
+      ctx.fillStyle = options.dotColor;
+      ctx.strokeStyle = options.lineColor;
+      ctx.lineWidth = options.lineWidth;
+    }
+
+    /**
+     * Draw particles
+     */
+    function draw() {
+      if (!canvasSupport) { return; }
+
+      winW = window.innerWidth;
+      winH = window.innerHeight;
+
+      // Wipe canvas
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Update particle positions
+      for (var i = 0; i < particles.length; i++) {
+        particles[i].updatePosition();
+      };
+      // Draw particles
+      for (var i = 0; i < particles.length; i++) {
+        particles[i].draw();
+      };
+
+      // Call this function next time screen is redrawn
+      if (!paused) {
+        raf = requestAnimationFrame(draw);
+      }
+    }
+
+    /**
+     * Add/remove particles.
+     */
+    function resizeHandler() {
+      // Resize the canvas
+      styleCanvas();
+
+      var elWidth = element.offsetWidth;
+      var elHeight = element.offsetHeight;
+
+      // Remove particles that are outside the canvas
+      for (var i = particles.length - 1; i >= 0; i--) {
+        if (particles[i].position.x > elWidth || particles[i].position.y > elHeight) {
+          particles.splice(i, 1);
+        }
+      };
+
+      // Adjust particle density
+      var numParticles = Math.round((canvas.width * canvas.height) / options.density);
+      if (numParticles > particles.length) {
+        while (numParticles > particles.length) {
+          var p = new Particle();
+          particles.push(p);
+        }
+      } else if (numParticles < particles.length) {
+        particles.splice(numParticles);
+      }
+
+      // Re-index particles
+      for (i = particles.length - 1; i >= 0; i--) {
+        particles[i].setStackPos(i);
+      };
+    }
+
+    /**
+     * Pause particle system
+     */
+    function pause() {
+      paused = true;
+    }
+
+    /**
+     * Start particle system
+     */
+    function start() {
+      paused = false;
+      draw();
+    }
+
+    /**
+     * Particle
+     */
+    function Particle() {
+      this.stackPos;
+      this.active = true;
+      this.layer = Math.ceil(Math.random() * 3);
+      this.parallaxOffsetX = 0;
+      this.parallaxOffsetY = 0;
+      // Initial particle position
+      this.position = {
+        x: Math.ceil(Math.random() * canvas.width),
+        y: Math.ceil(Math.random() * canvas.height)
+      }
+      // Random particle speed, within min and max values
+      this.speed = {}
+      switch (options.directionX) {
+        case 'left':
+          this.speed.x = +(-options.maxSpeedX + (Math.random() * options.maxSpeedX) - options.minSpeedX).toFixed(2);
+          break;
+        case 'right':
+          this.speed.x = +((Math.random() * options.maxSpeedX) + options.minSpeedX).toFixed(2);
+          break;
+        default:
+          this.speed.x = +((-options.maxSpeedX / 2) + (Math.random() * options.maxSpeedX)).toFixed(2);
+          this.speed.x += this.speed.x > 0 ? options.minSpeedX : -options.minSpeedX;
+          break;
+      }
+      switch (options.directionY) {
+        case 'up':
+          this.speed.y = +(-options.maxSpeedY + (Math.random() * options.maxSpeedY) - options.minSpeedY).toFixed(2);
+          break;
+        case 'down':
+          this.speed.y = +((Math.random() * options.maxSpeedY) + options.minSpeedY).toFixed(2);
+          break;
+        default:
+          this.speed.y = +((-options.maxSpeedY / 2) + (Math.random() * options.maxSpeedY)).toFixed(2);
+          this.speed.x += this.speed.y > 0 ? options.minSpeedY : -options.minSpeedY;
+          break;
+      }
+    }
+
+    /**
+     * Draw particle
+     */
+    Particle.prototype.draw = function() {
+      // Draw circle
+      ctx.beginPath();
+      ctx.arc(this.position.x + this.parallaxOffsetX, this.position.y + this.parallaxOffsetY, options.particleRadius / 2, 0, Math.PI * 2, true);
+      ctx.closePath();
+      ctx.fill();
+
+      // Draw lines
+      ctx.beginPath();
+      // Iterate over all particles which are higher in the stack than this one
+      for (var i = particles.length - 1; i > this.stackPos; i--) {
+        var p2 = particles[i];
+
+        // Pythagorus theorum to get distance between two points
+        var a = this.position.x - p2.position.x
+        var b = this.position.y - p2.position.y
+        var dist = Math.sqrt((a * a) + (b * b)).toFixed(2);
+
+        // If the two particles are in proximity, join them
+        if (dist < options.proximity) {
+          ctx.moveTo(this.position.x + this.parallaxOffsetX, this.position.y + this.parallaxOffsetY);
+          if (options.curvedLines) {
+            ctx.quadraticCurveTo(Math.max(p2.position.x, p2.position.x), Math.min(p2.position.y, p2.position.y), p2.position.x + p2.parallaxOffsetX, p2.position.y + p2.parallaxOffsetY);
+          } else {
+            ctx.lineTo(p2.position.x + p2.parallaxOffsetX, p2.position.y + p2.parallaxOffsetY);
+          }
+        }
+      }
+      ctx.stroke();
+      ctx.closePath();
+    }
+
+    /**
+     * update particle position
+     */
+    Particle.prototype.updatePosition = function() {
+      if (options.parallax) {
+        if (orientationSupport && !desktop) {
+          // Map tiltX range [-30,30] to range [0,winW]
+          var ratioX = (winW - 0) / (30 - -30);
+          pointerX = (tiltX - -30) * ratioX + 0;
+          // Map tiltY range [-30,30] to range [0,winH]
+          var ratioY = (winH - 0) / (30 - -30);
+          pointerY = (tiltY - -30) * ratioY + 0;
+        } else {
+          pointerX = mouseX;
+          pointerY = mouseY;
+        }
+        // Calculate parallax offsets
+        this.parallaxTargX = (pointerX - (winW / 2)) / (options.parallaxMultiplier * this.layer);
+        this.parallaxOffsetX += (this.parallaxTargX - this.parallaxOffsetX) / 10; // Easing equation
+        this.parallaxTargY = (pointerY - (winH / 2)) / (options.parallaxMultiplier * this.layer);
+        this.parallaxOffsetY += (this.parallaxTargY - this.parallaxOffsetY) / 10; // Easing equation
+      }
+
+      var elWidth = element.offsetWidth;
+      var elHeight = element.offsetHeight;
+
+      switch (options.directionX) {
+        case 'left':
+          if (this.position.x + this.speed.x + this.parallaxOffsetX < 0) {
+            this.position.x = elWidth - this.parallaxOffsetX;
+          }
+          break;
+        case 'right':
+          if (this.position.x + this.speed.x + this.parallaxOffsetX > elWidth) {
+            this.position.x = 0 - this.parallaxOffsetX;
+          }
+          break;
+        default:
+          // If particle has reached edge of canvas, reverse its direction
+          if (this.position.x + this.speed.x + this.parallaxOffsetX > elWidth || this.position.x + this.speed.x + this.parallaxOffsetX < 0) {
+            this.speed.x = -this.speed.x;
+          }
+          break;
+      }
+
+      switch (options.directionY) {
+        case 'up':
+          if (this.position.y + this.speed.y + this.parallaxOffsetY < 0) {
+            this.position.y = elHeight - this.parallaxOffsetY;
+          }
+          break;
+        case 'down':
+          if (this.position.y + this.speed.y + this.parallaxOffsetY > elHeight) {
+            this.position.y = 0 - this.parallaxOffsetY;
+          }
+          break;
+        default:
+          // If particle has reached edge of canvas, reverse its direction
+          if (this.position.y + this.speed.y + this.parallaxOffsetY > elHeight || this.position.y + this.speed.y + this.parallaxOffsetY < 0) {
+            this.speed.y = -this.speed.y;
+          }
+          break;
+      }
+
+      // Move particle
+      this.position.x += this.speed.x;
+      this.position.y += this.speed.y;
+    }
+
+    /**
+     * Setter: particle stacking position
+     */
+    Particle.prototype.setStackPos = function(i) {
+      this.stackPos = i;
+    }
+
+    function option (key, val) {
+      if (val) {
+        options[key] = val;
+      } else {
+        return options[key];
+      }
+    }
+
+    function destroy() {
+      console.log('destroy');
+      canvas.parentNode.removeChild(canvas);
+      hook('onDestroy');
+      if ($) {
+        $(element).removeData('plugin_' + pluginName);
+      }
+    }
+
+    function hook(hookName) {
+      if (options[hookName] !== undefined) {
+        options[hookName].call(element);
+      }
+    }
+
+    init();
+
+    return {
+      option: option,
+      destroy: destroy,
+      start: start,
+      pause: pause
+    };
+  }
+
+  window[pluginName] = function(elem, options) {
+    return new Plugin(elem, options);
+  };
+
+  window[pluginName].defaults = {
+    minSpeedX: 0.1,
+    maxSpeedX: 0.7,
+    minSpeedY: 0.1,
+    maxSpeedY: 0.7,
+    directionX: 'center', // 'center', 'left' or 'right'. 'center' = dots bounce off edges
+    directionY: 'center', // 'center', 'up' or 'down'. 'center' = dots bounce off edges
+    density: 10000, // How many particles will be generated: one particle every n pixels
+    dotColor: '#666666',
+    lineColor: '#666666',
+    particleRadius: 7, // Dot size
+    lineWidth: 1,
+    curvedLines: false,
+    proximity: 100, // How close two dots need to be before they join
+    parallax: true,
+    parallaxMultiplier: 5, // The lower the number, the more extreme the parallax effect
+    onInit: function() {},
+    onDestroy: function() {}
+  };
+
+  // nothing wrong with hooking into jQuery if it's there...
+  if ($) {
+    $.fn[pluginName] = function(options) {
+      if (typeof arguments[0] === 'string') {
+        var methodName = arguments[0];
+        var args = Array.prototype.slice.call(arguments, 1);
+        var returnVal;
+        this.each(function() {
+          if ($.data(this, 'plugin_' + pluginName) && typeof $.data(this, 'plugin_' + pluginName)[methodName] === 'function') {
+            returnVal = $.data(this, 'plugin_' + pluginName)[methodName].apply(this, args);
+          }
+        });
+        if (returnVal !== undefined){
+          return returnVal;
+        } else {
+          return this;
+        }
+      } else if (typeof options === "object" || !options) {
+        return this.each(function() {
+          if (!$.data(this, 'plugin_' + pluginName)) {
+            $.data(this, 'plugin_' + pluginName, new Plugin(this, options));
+          }
+        });
+      }
+    };
+  }
+
+})(window, document);
+
+(function() {
+    var lastTime = 0;
+    var vendors = ['ms', 'moz', 'webkit', 'o'];
+    for(var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
+      window.requestAnimationFrame = window[vendors[x]+'RequestAnimationFrame'];
+      window.cancelAnimationFrame = window[vendors[x]+'CancelAnimationFrame']
+                                 || window[vendors[x]+'CancelRequestAnimationFrame'];
+    }
+
+    if (!window.requestAnimationFrame)
+      window.requestAnimationFrame = function(callback, element) {
+        var currTime = new Date().getTime();
+        var timeToCall = Math.max(0, 16 - (currTime - lastTime));
+        var id = window.setTimeout(function() { callback(currTime + timeToCall); },
+          timeToCall);
+        lastTime = currTime + timeToCall;
+        return id;
+      };
+
+    if (!window.cancelAnimationFrame)
+      window.cancelAnimationFrame = function(id) {
+        clearTimeout(id);
+      };
+}());
+
+</script>
+
+
+
+
+  <!-- ***** About ***** -->
+
+
+
+  <section class="get-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="left-image">
+            <img src="assets/images/about-left-image.gif" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 align-self-center">
+          <div class="section-heading">
+            <h6>Get info</h6>
+            <h4>Read More <em>About Us</em></h4>
+            <p>We are DG Adz, Arguably the Most Reliable & Economic Digital Advertising Service Provider for Your Business. Not Just a Simple Business Directory Nor Just Another Digital Marketing Agency,but a Complete 360-degree Digital Advertising and Marketing Solution to Promote your Brand and Business Online.</p>
+            <p>DG Adz is a Marque for Successful Businesses on a Single Platform Helping Each Other Grow by Sharing Expert Advice, Market Knowledge, Industry Experiences, Reference Programs, Business Associations, Events & Workshops, Seminars & Webinars and many more. ”WE ARE A GROUP OF SUCESFUL BUSINES OWNERS INVITING YOU FOR YOUR BUSINESS SUCCESS”.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Main Banner Area End ***** -->
+
+ 
+
+  <section class="our-courses" id="courses">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h6>Our Services</h6>
+            <h4>Provided <em>Services</em></h4>
+            <p>A Complete 360-Degree Digital Marketing Solution For Your Brand and Business</p>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="naccs">
+            <div class="tabs">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="menu">
+                    <div class="active gradient-border"><span>Web Development</span></div>
+                    <div class="gradient-border"><span>Graphic Design</span></div>
+                    <div class="gradient-border"><span>Web Design</span></div>
+                    <div class="gradient-border"><span>WordPress</span></div>
+                    <div class="gradient-border"><span>Web Design</span></div>
+                    <div class="gradient-border"><span>WordPress</span></div>
+                    <div class="gradient-border"><span>Web Design</span></div>
+                    <div class="gradient-border"><span>WordPress</span></div>
+                    <div class="gradient-border"><span>Web Design</span></div>
+                    <div class="gradient-border"><span>WordPress</span></div>
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <ul class="nacc">
+                    <li class="active">
+                      <div>
+                        <div class="left-image">
+                          <img src="assets/images/courses-01.jpg" alt="">
+                        </div>
+                        <div class="right-content">
+                          <h4>Web Development</h4>
+                          <p>Did you know that you can visit <a rel="nofollow" href="https://www.toocss.com/" target="_blank">TooCSS website</a> for latest listing of HTML templates and a variety of useful templates. 
+                          <br><br>You just need to go and visit that website right now. IF you have any suggestion or comment about this template, you can feel free to go to contact page for our email address.</p>
+                          
+                          <div class="text-button">
+                            <a href="contact-us.html">Subscribe Course</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="left-image">
+                          <img src="assets/images/courses-02.jpg" alt="">
+                          
+                        </div>
+                        <div class="right-content">
+                          <h4>Creative Graphic Design</h4>
+                          <p>You are not allowed to redistribute this template ZIP file on any other website without a permission from us.<br><br>There are some unethical people on this world copied and reposted our templates without any permission from us. Their Karma will hit them really hard. Yeah!</p>
+                          
+                          <div class="text-button">
+                            <a href="contact-us.html">Subscribe Course</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="left-image">
+                          <img src="assets/images/courses-03.jpg" alt="">
+                          
+                        </div>
+                        <div class="right-content">
+                          <h4>Web Design</h4>
+                          <p>Quinoa roof party squid prism sustainable letterpress cray hammock tumeric man bun mixtape tofu subway tile cronut. Deep v ennui subway tile organic seitan.<br><br>Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave.</p>
+                          
+                          <div class="text-button">
+                            <a href="contact-us.html">Subscribe Course</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="left-image">
+                          <img src="assets/images/courses-04.jpg" alt="">
+                          
+                        </div>
+                        <div class="right-content">
+                          <h4>WordPress Introduction</h4>
+                          <p>Quinoa roof party squid prism sustainable letterpress cray hammock tumeric man bun mixtape tofu subway tile cronut. Deep v ennui subway tile organic seitan.<br><br>Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave.</p>
+                          
+                          <div class="text-button">
+                            <a href="contact-us.html">Subscribe Course</a>
+                          </div>
+                        </div>
+                      </div>
+                      </li>
+                    <li>
+                      <div>
+                        <div class="left-image">
+                          <img src="assets/images/courses-03.jpg" alt="">
+                          
+                        </div>
+                        <div class="right-content">
+                          <h4>Web D</h4>
+                          <p>Quinoa roof party squid prism sustainable letterpress cray hammock tumeric man bun mixtape tofu subway tile cronut. Deep v ennui subway tile organic seitan.<br><br>Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave.</p>
+                          
+                          <div class="text-button">
+                            <a href="contact-us.html">Subscribe Course</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="left-image">
+                          <img src="assets/images/courses-04.jpg" alt="">
+                        </div>
+                        <div class="right-content">
+                          <h4>SOCIAL MEDIA MANAGEMENT SERVICES</h4>
+                          <p>We aim at creating brand awerness, initial & encourage Audience Interactions & also look after online Reputation Management.
+                            What's Included in our Social Media Management Services</p>
+                            <p>SOCIAL ACCOUNT SETUP: Developing Business Page on Popular Social Media Platform like Facebook, Instagram, Youtube, Twitter, etc.
+                              SOCIAL MEDIA STRATERGY: Positioning and Targeting on Social Media</p>
+                          <div class="text-button">
+                            <a href="contact-us.html">Contact Us</a>
+                          </div>
+                        </div>
+                      </div>
+                      </li>
+                    <li>
+                      <div>
+                        <div class="left-image">
+                          <img src="assets/images/courses-04.jpg" alt="">
+                         
+                        </div>
+                        <div class="right-content">
+                          <h4>WordPress Introduction</h4>
+                          <p>Quinoa roof party squid prism sustainable letterpress cray hammock tumeric man bun mixtape tofu subway tile cronut. Deep v ennui subway tile organic seitan.<br><br>Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave.</p>
+                          
+                          <div class="text-button">
+                            <a href="contact-us.html">Subscribe Course</a>
+                          </div>
+                        </div>
+                      </div>
+                      </li>
+                    <li>
+                      <div>
+                        <div class="left-image">
+                          <img src="assets/images/courses-04.jpg" alt="">
+                          
+                        </div>
+                        <div class="right-content">
+                          <h4>WordPress Introduction</h4>
+                          <p>Quinoa roof party squid prism sustainable letterpress cray hammock tumeric man bun mixtape tofu subway tile cronut. Deep v ennui subway tile organic seitan.<br><br>Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave.</p>
+                          
+                          <div class="text-button">
+                            <a href="contact-us.html">Subscribe Course</a>
+                          </div>
+                        </div>
+                      </div>
+                      </li>
+                    <li>
+                      <div>
+                        <div class="left-image">
+                          <img src="assets/images/courses-04.jpg" alt="">
+                         
+                        </div>
+                        <div class="right-content">
+                          <h4>WordPress Introduction</h4>
+                          <p>Quinoa roof party squid prism sustainable letterpress cray hammock tumeric man bun mixtape tofu subway tile cronut. Deep v ennui subway tile organic seitan.<br><br>Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave.</p>
+                         
+                          <div class="text-button">
+                            <a href="contact-us.html">Subscribe Course</a>
+                          </div>
+                        </div>
+                      </div>
+                      </li>
+                    <li>
+                      <div>
+                        <div class="left-image">
+                          <img src="assets/images/courses-04.jpg" alt="">
+                          
+                        </div>
+                        <div class="right-content">
+                          <h4>WordPress Introduction</h4>
+                          <p>Quinoa roof party squid prism sustainable letterpress cray hammock tumeric man bun mixtape tofu subway tile cronut. Deep v ennui subway tile organic seitan.<br><br>Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave.</p>
+                          
+                          <div class="text-button">
+                            <a href="contact-us.html">Subscribe Course</a>
+                          </div>
+                        </div>
+                      </div>
+                      </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="simple-cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 offset-lg-1">
+          <div class="left-image">
+            <img src="assets/images/cta-left-image.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <h4>Freedom From Boring Printed Business Card</h4>
+          <br>
+          <h6>Design your digital visiting card in just 5 minutes - it's easy, elegant and free. DG Adz is always in your pocket, never tears and never runs out. Your Digital Visiting Card can be easily updated with our user-friendly dashboard, so you won't need to re-print a business card again.</h6>
+          <br>
+          <h4>How It Works ?</h4>
+          <br>
+          <h6>1. Create your Card</h6>
+          <p>Design your digital visiting card in just 5 minutes</p>
+          <h6>2. Save to your Device</h6>
+          <p>Digital Visiting Card is accessible anytime from anywhere</p>
+          <h6>Share with friends and colleagues</h6>
+          <p>Through a variety of channels</p>
+          <h6>₹ 999 For Lifetime</h6>
+          <br>
+          <div class="white-button">
+            <a href="contact-us.html">Create your Card Here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h6>Testimonials</h6>
+            <h4>What They <em>Think</em></h4>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="owl-testimonials owl-carousel" style="position: relative; z-index: 5;">
+            <div class="item">
+              <p>“I am getting leads after listing in DG Adz, I really appreciate the services.”</p>
+                <h4>Santosh Gowda</h4>
+                <span>Hotel Owner</span>
+            </div>
+            <div class="item">
+              <p>“Excellent services recived by DG Adz.”</p>
+                <h4>Mr. Subodh Pandit</h4>
+                <span>CEO - BKB Financial Services</span>
+            </div>
+            <div class="item">
+              <p>“Marvellous services recived by DG Adz, my sales team really like it.”</p>
+                <h4>Mr. Robin Samuel</h4>
+                <span>Restaurant Owner</span>
+            </div>
+            <div class="item">
+              <p>“Excellent support recived by DG Adz. It is always remain my first choice for digital advertisement solutions.”</p>
+                <h4>Mr. Ajit Kohli</h4>
+                <span>Director- Global Utilities Ltd.</span>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <section class="contact-us" id="contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8" style="margin-bottom: -25px;">
+          <div id="map">
+          
+            <div class="row">
+              <div class="col-lg-4 offset-lg-1">
+                <div class="contact-info">
+                  <div class="icon">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <h4>Phone</h4>
+                  <span style="cursor: pointer;"><a href="tel:+91 97950 97957">+91 97950 97957</a></span>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="contact-info">
+                  <div class="icon">
+                    <i class="fa fa-envelope"></i>
+                  </div>
+                  <h4>Email</h4>
+                  <span style="cursor: pointer;"><a href="mailto:info@dgadz.com">info@dgadz.com</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+   <!-- Site footer -->
+   <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>About</h6>
+          <br>
+          <p class="text-justify">We are expert in Designing Website for small Industries, Corporat Businesses, eCommerce Business, CMS Website, Custom Website, etc. We create content that is SEO friendly and with 0% plagiarism. DG Adz can Customize, Design & Deliver the Website Perfectly that Suits your Business & Requirements.</p>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Categories</h6>
+          <ul class="footer-links">
+            <li><a href="http://scanfcode.com/category/c-language/">Property</a></li>
+            <li><a href="http://scanfcode.com/category/front-end-development/">FAQ</a></li>
+            <li><a href="http://scanfcode.com/category/back-end-development/">DG Kart</a></li>
+            <li><a href="http://scanfcode.com/category/java-programming-language/">Blog</a></li>
+            <li><a href="http://scanfcode.com/category/android/">Payment</a></li>
+            <li><a href="http://scanfcode.com/category/templates/">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="http://scanfcode.com/about/">About Us</a></li>
+            <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+            <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Terms of Use</a></li>
+            <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="http://scanfcode.com/sitemap/">Refund & Cancellatin Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">&copy;Powered by Dg Adz 2022 . All Rights Reserved 
+       <a href="#">DG Adz</a>.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            <li><a class="youtube" href="#"><i class="fa fa-youtube"></i></a></li>   
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+          e.preventDefault();
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+</body>
+
+</html>
